@@ -1,0 +1,113 @@
+https://vivasoftltd.com/dockerize-asp-net-core-8-app-with-sql-server/
+https://downloadlynet.ir/2023/02/99684/07/build-asp-net-core-web-api-scratch-to-finish-net-7-api/00/?#/99684-udemy-162513011402.html
+https://www.c-sharpcorner.com/article/building-and-running-asp-net-core-application-in-docker-container/
+https://www.c-sharpcorner.com/article/building-and-running-asp-net-core-application-in-docker-container/
+
+Left Off: 006 Change Methods To Use DTOs
+
+SQLExpress
+SQLEXPRESS
+pass:1234
+
+
+https://mapp.necmoney.app/Home/Index
+https://mapp.necmoney.app/Accounts/Login
+yz@gmail.com
+1234
+
+Attendance
+1-1-2025 -- In: 11:05 AM Out: 09:00 PM
+2-1-2025 -- In: 11:58 AM Out: 09:00 PM
+4-1-2025 -- In: 12:00 PM Out: 
+
+
+
+ASP.NET Web Core Web API
+
+1
+Models>Domain>Walks,Region,Difficulty
+
+2
+Nugets
+Microsoft.EntityFrameWorkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+3  (p10)
+Make DbContext class in Data> NZWalskDbContext.cs
+
+4 (p11)
+Create ConnectionString
+"NZWalksConnectionString": ""Server=.//;Database=NZWalksDb;Trusted_Connection=True;TrustServerCertificate=True"
+
+5 (12)
+Inject DbContext in Program.cs
+
+6 (13)
+Migrations- MIgrate the tables
+Add-Migration "Name Of Migration"
+Update-Database
+
+7
+section 3 (2)
+Controller Get: Getall() action by swagger
+
+8 (3)
+Get data from Actual Database
+
+9 (004)
+Get regions by Id Action Method
+
+10 (005)
+DTO
+
+11 (006)
+Change Methods To use DTO
+Models>DTO>Region DTO
+Convert GetAll() action to use RegionDTO
+Convert GetById() action to use RegionDTO
+
+12 (007)
+Create Region (201) by using DTO in the action
+
+13 (008) [PUT]
+Update Action, DTO For update Action
+
+14 (009) [Delete]
+Delete Action with DTO
+
+15 Section 4
+(002)
+Make The Actions Asyncronous
+
+16 (004)
+Add Repository Pattern, New Folder >> Repositories
+IRegionRepository.cs (Declare The method signatures)
+Implement the functions in : SQLRegionRepository.cs (Implement: IRegionRepository)
+
+*Inject The Repository in Program.cs (Register this service)
+* C# Interactive(Bottom Pannel)
+
+17 (005) section 4
+Add other methods to repository
+
+18 (006, 007)
+Automapper, Mapping Between Domain Model, View Model, DTOs
+Nuget: AutoMapper by Jimmy Bogard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
