@@ -3,7 +3,7 @@ https://downloadlynet.ir/2023/02/99684/07/build-asp-net-core-web-api-scratch-to-
 https://www.c-sharpcorner.com/article/building-and-running-asp-net-core-application-in-docker-container/
 https://www.c-sharpcorner.com/article/building-and-running-asp-net-core-application-in-docker-container/
 
-Left Off: 006 Change Methods To Use DTOs
+Left Off: add other methods to repository
 
 SQLExpress
 SQLEXPRESS
@@ -22,6 +22,8 @@ Attendance
 5-1-2025 -- In: 11:59 AM Out: 
 
 
+
+# C# Interactive : Guid.NewGuid()
 
 ASP.NET Web Core Web API
 

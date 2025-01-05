@@ -1,0 +1,4 @@
+1.Api Methods make normal project by these.
+2.take file through api form data method post, and save it to local directory
+
+
